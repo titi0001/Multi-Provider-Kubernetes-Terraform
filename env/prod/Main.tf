@@ -1,6 +1,6 @@
-module "Prod" {
-  source = "../../infra"
+module "prod" {
+    source = "../../infra"
 
-  nome_repositorio = "producao"
-  
+    nome_repositorio = "producao"
+    cluster_name = "producao"
 }
