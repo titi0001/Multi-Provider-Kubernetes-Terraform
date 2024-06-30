@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Substitua 'SEU_NOME_DE_BUCKET' pelo nome desejado para o bucket
-bucket_name='terraform-state-alura'
+bucket_name='terraform-state-codingbr'
 region=$(aws configure get region)  # Substitua pela região desejada
 
 # Criação de um cliente S3
